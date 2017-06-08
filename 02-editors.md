@@ -89,7 +89,7 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I will use Atom  as my graphical editor, mostly because Atom has a markdown preview feature that is really helpful for editing markdown files. My favorite features of Atom are highly customizable packages, git aware and command palette.
+>> I will use Atom  as my graphical editor, mostly because Atom has a markdown preview feature that is really helpful for editing markdown files. My favorite features of Atom are highly customizable packages, git awareness and command palette.
 
 >> I find the following keyboard shortcuts useful -
 * Ctrl + Shift + P : command palette
