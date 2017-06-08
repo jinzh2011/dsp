@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> Vim will my preferred choice of use. I have used vim for basic editing and would like to continue to use it.
+>> Vim is my preferred terminal editor. I have used vim for basic editing and would like to continue to use it.
 
 --
 
