@@ -19,7 +19,23 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >  Use | Command
+> > ------- | --------------------
+    show current working directory path| `pwd`
+    creating a directory | `mkdir`*`dir_name`*
+    deleting a directory | `rm -rf`*`dir_name`*
+    creating a file using `touch` command | `touch`*`file_name`*
+    deleting a file | `rm`*`file_name`*
+    renaming a file | `mv`*`file_name new_file_name`*
+    listing hidden files | `ls -a`
+    copying a file from one directory to another | `cp`*`original_file_name  new_dir_name`*
+    copying all files from current directory to another | `cp`* `new_dir_name`*
+    change directory | `cd`*`dir_name`*
+    change directory to two levels up | `cd ../..`
+    move file from one directory to another | `mv`*`file_name new_dir_name`*
+
+
+
 
 ---
 
@@ -34,7 +50,16 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command | Use
+> > ------- | ---------
+    `ls` |  lists all files and directories in the working directory
+    `ls -a` |  lists all contents, including hidden files and directories
+    `ls -l` | lists all contents of a directory in long format
+    `ls -lh` |  lists all contents of a directory in long format, print size in human readable format
+    `ls -lah` | lists all contents of a directory including hidden files in long format, print size in human readable format
+    `ls -t` | order files and directories by the time they were last modified
+    `ls -Glp` | lists all contents of a directory in long format, don't list group names, add slash to directories
+
 
 ---
 
@@ -42,7 +67,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * ls -a
+* ls -lh
+* ls -t
+* ls -p
+* ls -l1r
+
 
 ---
 
@@ -50,7 +80,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+> > `xargs` build and execute command lines from standard in. For example, the following bash command shows how to use `xargs` to remove all files with file extension .c. `find . -name "*.c" ` returns all files names with extension .c as standard in, and `xargs` take the standard in and execute it with `rm -rf` command to remove files with extension .c.
+```bash
+$ ls
+apple.c  apple.h  orange.c  orange.h
+$ find . -name "*.c" | xargs rm -rf
+$ ls
+apple.h  orange.h
+```
