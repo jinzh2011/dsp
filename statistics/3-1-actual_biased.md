@@ -20,7 +20,7 @@ to get the number of children in households.
 >> ```
 >> Plot the graph of the two probability mass functions.
 
->> ![plot](https://raw.githubusercontent.com/jinzh2011/dsp/statistics/chap03ex1.png)
+>> ![plot](https://github.com/jinzh2011/dsp/blob/master/statistics/chap03ex1.png)
 
 >> ```
 >> thinkplot.PrePlot(2)
